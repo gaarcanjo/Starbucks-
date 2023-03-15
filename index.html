@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Caveat&family=Poppins:ital,wght@1,300;1,500;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+  <title>Starbucks</title>
+</head>
+
+<body>
+  <div class="circulo"> </div>
+
+  <img class="logo" src="./imagens/logo.png" alt="logo da Starbuks">
+
+  <div class="conteudo">
+    <div class="caixa-texto">
+      <h2>It's not just a café <br>
+        It's is <span>Starbucks</span> </h2>
+      <p>No Starbucks você encontra cafés e produtos de altíssima qualidade em um ótimo ambiente, confortável e aconchegante.</p>
+      <button> Deixe o seu like!</button>
+    </div>
+    <div class="caixa-imagem">
+      <img src="./imagens/img1.png" alt=" cafe Starbuks" class="starbucks">
+    </div>
+  </div>
+  <div class="menu">
+    <img src="./imagens/thumb1.png" class="botao-menu" onclick="trocaImagem('./imagens/img1.png'); trocaCor('#017143')">
+    <img src="./imagens/thumb2.png" class="botao-menu" onclick="trocaImagem('./imagens/img2.png'); trocaCor('#eb7495')">
+    <img src="./imagens/thumb3.png" class="botao-menu" onclick="trocaImagem('./imagens/img3.png'); trocaCor('#d752b1')">
+  </div>
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
